@@ -1,0 +1,64 @@
+<svg width="100%" viewBox="0 0 690 730" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Chain Event Graphs for Narrative Legal Reasoning</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">A simple chain event graph tree with prosecution and defence branches converging to verdict sinks.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    
+  </defs>
+
+  <rect width="680" height="720" fill="#2e3328" rx="12" style="fill:rgb(46, 51, 40);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- ROOT -->
+  <circle cx="340" cy="100" r="30" fill="#4a5240" stroke="#7a7a50" stroke-width="0.5" style="fill:rgb(74, 82, 64);stroke:rgb(122, 122, 80);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Root → Hp -->
+  <line x1="318" y1="120" x2="208" y2="238" stroke="#9a8a60" stroke-width="1.5" marker-end="url(#arrow)" style="fill:rgb(0, 0, 0);stroke:rgb(154, 138, 96);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Root → Hd -->
+  <line x1="362" y1="120" x2="472" y2="238" stroke="#608060" stroke-width="1.5" marker-end="url(#arrow)" style="fill:rgb(0, 0, 0);stroke:rgb(96, 128, 96);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Hp node -->
+  <circle cx="190" cy="268" r="30" fill="#4a4535" stroke="#9a8060" stroke-width="0.5" style="fill:rgb(74, 69, 53);stroke:rgb(154, 128, 96);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="190" y="268" style="fill:rgb(240, 232, 208);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:16px;font-weight:600;text-anchor:middle;dominant-baseline:middle">Hp</text>
+
+  <!-- Hd node -->
+  <circle cx="490" cy="268" r="30" fill="#304038" stroke="#507060" stroke-width="0.5" style="fill:rgb(48, 64, 56);stroke:rgb(80, 112, 96);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="490" y="268" style="fill:rgb(240, 232, 208);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:16px;font-weight:600;text-anchor:middle;dominant-baseline:middle">Hd</text>
+
+  <!-- Hp → two leaves -->
+  <line x1="172" y1="292" x2="118" y2="408" stroke="#9a8a60" stroke-width="1.5" marker-end="url(#arrow)" style="fill:rgb(0, 0, 0);stroke:rgb(154, 138, 96);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="208" y1="292" x2="262" y2="408" stroke="#9a8a60" stroke-width="1.5" marker-end="url(#arrow)" style="fill:rgb(0, 0, 0);stroke:rgb(154, 138, 96);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Hd → two leaves -->
+  <line x1="472" y1="292" x2="418" y2="408" stroke="#608060" stroke-width="1.5" marker-end="url(#arrow)" style="fill:rgb(0, 0, 0);stroke:rgb(96, 128, 96);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="508" y1="292" x2="562" y2="408" stroke="#608060" stroke-width="1.5" marker-end="url(#arrow)" style="fill:rgb(0, 0, 0);stroke:rgb(96, 128, 96);color:rgb(0, 0, 0);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Prosecution leaf nodes -->
+  <circle cx="104" cy="432" r="24" fill="#3e3a2e" stroke="#9a8060" stroke-width="0.5" style="fill:rgb(62, 58, 46);stroke:rgb(154, 128, 96);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="276" cy="432" r="24" fill="#3e3a2e" stroke="#9a8060" stroke-width="0.5" style="fill:rgb(62, 58, 46);stroke:rgb(154, 128, 96);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Defence leaf nodes -->
+  <circle cx="404" cy="432" r="24" fill="#2a3530" stroke="#507060" stroke-width="0.5" style="fill:rgb(42, 53, 48);stroke:rgb(80, 112, 96);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="576" cy="432" r="24" fill="#2a3530" stroke="#507060" stroke-width="0.5" style="fill:rgb(42, 53, 48);stroke:rgb(80, 112, 96);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Leaves → prosecution sink -->
+  <line x1="114" y1="454" x2="172" y2="528" stroke="#9a8060" stroke-width="1.2" stroke-dasharray="5 3" marker-end="url(#arrow)" style="fill:rgb(0, 0, 0);stroke:rgb(154, 128, 96);color:rgb(0, 0, 0);stroke-width:1.2px;stroke-dasharray:5px, 3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="266" y1="454" x2="208" y2="528" stroke="#9a8060" stroke-width="1.2" stroke-dasharray="5 3" marker-end="url(#arrow)" style="fill:rgb(0, 0, 0);stroke:rgb(154, 128, 96);color:rgb(0, 0, 0);stroke-width:1.2px;stroke-dasharray:5px, 3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Leaves → defence sink -->
+  <line x1="414" y1="454" x2="472" y2="528" stroke="#507060" stroke-width="1.2" stroke-dasharray="5 3" marker-end="url(#arrow)" style="fill:rgb(0, 0, 0);stroke:rgb(80, 112, 96);color:rgb(0, 0, 0);stroke-width:1.2px;stroke-dasharray:5px, 3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="566" y1="454" x2="508" y2="528" stroke="#507060" stroke-width="1.2" stroke-dasharray="5 3" marker-end="url(#arrow)" style="fill:rgb(0, 0, 0);stroke:rgb(80, 112, 96);color:rgb(0, 0, 0);stroke-width:1.2px;stroke-dasharray:5px, 3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Prosecution sink: triangle -->
+  <polygon points="190,534 220,588 160,588" fill="#4a4030" stroke="#9a8060" stroke-width="1" style="fill:rgb(74, 64, 48);stroke:rgb(154, 128, 96);color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Defence sink: circle -->
+  <circle cx="490" cy="561" r="28" fill="#2a3a32" stroke="#608060" stroke-width="1" style="fill:rgb(42, 58, 50);stroke:rgb(96, 128, 96);color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Sink labels -->
+  <text x="190" y="626" style="fill:#9a8060;fill:rgb(154, 128, 96);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:22px;font-weight:400;text-anchor:middle;dominant-baseline:auto">prosecution</text>
+  <text x="490" y="614" style="fill:#608060;fill:rgb(96, 128, 96);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:22px;font-weight:400;text-anchor:middle;dominant-baseline:auto">defence</text>
+
+  <rect x="1" y="1" width="678" height="718" rx="12" fill="none" stroke="#5a5848" stroke-width="0.5" style="fill:none;stroke:rgb(90, 88, 72);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</svg>

@@ -2,16 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <script>if ('scrollRestoration' in history) { history.scrollRestoration = 'manual'; }</script>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Your Name - Homepage</title>
-  <meta name="description" content="A minimal academic homepage template for researchers, students, and creators.">
-  <meta name="keywords" content="academic homepage, personal website, portfolio, researcher, student">
-  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <title> Helen Qiao </title>
+  <meta name="description" content="PhD researcher in Cognitive Psychology.">
+  <meta name="keywords" content="legal decision-making, experimental jurisprudence, legal AI, law in context, causal reasoning">
+  <link rel="icon" href="assets/img/HQ_logo.png" type="image/png">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/a860a211d3.js" crossorigin="anonymous"></script>
@@ -22,8 +23,14 @@
 <body class="theme-luka">
   <nav class="top-nav">
     <div class="nav-container">
+      <div class="nav-brand">
+        <a href="#" class="nav-name">Helen Qiao</a>
+      </div>
       <div class="nav-left">
-        <a href="./">Home</a>
+        <a href="#about">BIO</a>
+        <a href="#education">EDUCATION</a>
+        <a href="#experience">EXPERIENCE</a>
+        <a href="#projects">RESEARCH</a>
       </div>
       <div class="nav-right">
         <button id="themeToggle" class="theme-toggle" title="Toggle theme" aria-label="Toggle theme">
@@ -37,36 +44,29 @@
     <header class="sidebar">
       <div class="profile-card">
         <a class="image avatar">
-          <img src="assets/img/avatar.svg" alt="Profile avatar">
+          <img src="assets/img/avatar.jpg" alt="Profile avatar">
         </a>
 
-        <h1 class="site-name">Your Name</h1>
-        <p class="site-email">your.email@example.com</p>
+        <h1 class="site-name"><span class="name-light">Mengxuan</span> <strong>Helen</strong> Qiao</h1>
+        <p class="site-email">Cognitive Psychology<br>Experimental Jurisprudence<br>Legal AI</p>
 
         <div class="social-icons">
-          <a href="mailto:your.email@example.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
-          <a href="https://scholar.google.com/" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-          <a href="https://github.com/yourname" title="GitHub"><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.linkedin.com/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="https://yourblog.example.com" title="Blog"><i class="fa-solid fa-rss"></i></a>
-        </div>
-
-        <div class="visitor-card">
-          <div class="visitor-card-title">Visitor Map</div>
-          <div class="visitor-card-body">
-            Replace this card with your own ClustrMaps image or analytics widget.
-          </div>
+          <a href="mailto:helen.qiao.18@ucl.ac.uk" title="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://scholar.google.co.uk/citations?hl=en&user=WZrZSK4AAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+          <a href="https://www.linkedin.com/in/mhelenqiao/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
         </div>
       </div>
+      <button id="backToTop" class="back-to-top" title="Back to top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
     </header>
 
     <section class="content">
       <div class="section" id="about">
-        <h2 class="section-title">About Me</h2>
+        <h2 class="section-title">Bio</h2>
         <div class="section-body">
-          <p>Hello! I am <strong>Your Name</strong>, a student / researcher / engineer working on topics that matter to you. This template is designed to make personal academic websites clean, readable, and easy to adapt.</p>
-          <p>You can use this section to briefly introduce your background, research interests, and current affiliations. Keep it concise and personal.</p>
-          <p><strong><a href="#" target="_blank" rel="noopener">Download my CV</a></strong> (replace this link with your resume)</p>
+          <p>I am a PhD candidate in the <a href="https://causalcognition.wixstudio.com/casualcognitionlab" target="_blank" rel="noopener">Causal Cognition Lab</a> in the <a href="https://www.ucl.ac.uk/brain-sciences/pals/research/experimental-psychology" target="_blank" rel="noopener">Experimental Psychology Department</a> at <a href="https://www.ucl.ac.uk" target="_blank" rel="noopener">University College London (UCL)</a>. My research investigates judgment and decision-making, Bayesian and causal reasoning, coherence-based reasoning, and AI alignment, with a particular focus on reasoning in legal contexts. Using cognitive science and experimental methods, I investigate how people and large language models evaluate evidence and reach judgments, and I develop models to capture those processes.</p>
+          <p>I am always keen to connect, collaborate, and learn. Reach me at <a href="mailto:helen.qiao.18@ucl.ac.uk">helen.qiao.18@ucl.ac.uk</a> if you'd like to talk about legal psychology, AI, philosophy, human cognition, or anything adjacent and beyond.</p>
         </div>
       </div>
 
@@ -75,11 +75,28 @@
         <div class="section-body">
           <div class="card">
             <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="Institution logo" class="institution-logo">
+              <img src="assets/img/ucl-logo--primary.svg" alt="Institution logo" class="institution-logo">
               <div class="experience-content">
-                <p class="exp-title"><strong>Your University</strong></p>
-                <p class="exp-detail">B.S. / M.S. / Ph.D. in Your Major</p>
-                <p class="exp-period">2022 - 2026</p>
+                <p class="site-tagline">PhD in Experimental Psychology</p>
+                <p class="exp-detail">University College London (UCL)</p>
+                <p class="exp-detail"><em>Supervisor: Prof <a href="https://profiles.ucl.ac.uk/10496-david-lagnado" target="_blank" rel="noopener">David Lagnado</a></em></p>
+                <p class="exp-period">2023 - present</p>
+              </div>
+            </div>
+            <div class="experience-item">
+              <img src="assets/img/ucl-logo--primary.svg" alt="Institution logo" class="institution-logo">
+              <div class="experience-content">
+                <p class="site-tagline">MSc in Crime Science</p>
+                <p class="exp-detail">University College London (UCL)</p>
+                <p class="exp-period">2021 - 2022</p>
+              </div>
+            </div>
+            <div class="experience-item">
+              <img src="assets/img/ucl-logo--primary.svg" alt="Institution logo" class="institution-logo">
+              <div class="experience-content">
+                <p class="site-tagline">BSc in Psychology</p>
+                <p class="exp-detail">University College London (UCL)</p>
+                <p class="exp-period">2018 - 2021</p>
               </div>
             </div>
           </div>
@@ -90,85 +107,129 @@
         <h2 class="section-title">Experience</h2>
         <div class="section-body">
           <div class="card timeline-item">
+            
             <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="Institution logo" class="institution-logo">
+              <img src="assets/img/groningen_logo.png" alt="Institution logo" class="institution-logo">
               <div class="experience-content">
-                <p class="exp-title"><strong>Research Lab / Company Name</strong></p>
-                <p class="exp-detail">Research Intern / Engineer / Assistant</p>
-                <p class="exp-detail"><em>Advisor:</em> Prof. / Dr. Name</p>
-                <p class="exp-period">2025 - Present</p>
+                <p class="site-tagline">Affiliated researcher</p>
+                <p class="exp-detail">University of Groningen, Faculty of Law</p>
+                <p class="exp-detail">Project: <em><a href="https://preventingmiscarriagesofjustice.wordpress.com" target="_blank" rel="noopener">Preventing Miscarriages of Justice (PMJ)</a></em></p>
+                <p class="exp-period">2025 - present</p>
+              </div>
+            </div>
+
+            <div class="experience-item">
+              <img src="assets/img/ucl-logo--primary.svg" alt="Institution logo" class="institution-logo">
+              <div class="experience-content">
+                <p class="site-tagline">BSc Psychology Final Year Project Supervisor</p>
+                <p class="exp-detail">University College London (UCL)</p>
+                <p class="exp-period">2025 - present</p>
+              </div>
+            </div>
+
+            <div class="experience-item">
+              <img src="assets/img/ucla_logo.png" alt="Institution logo" class="institution-logo">
+              <div class="experience-content">
+                <p class="site-tagline">Visiting researcher</p>
+                <p class="exp-detail">University of California, Los Angeles (UCLA), Department of Psychology</p>
+                <p class="exp-detail"><em>Under the supervision of Prof <a href="https://reasoninglab.psych.ucla.edu/keith-holyoak/" target="_blank" rel="noopener">Keith Holyoak</a></em></p>
+                <p class="exp-period">2025 - 2025</p>
+              </div>
+            </div>
+
+            <div class="experience-item">
+              <img src="assets/img/swansea_logo.png" alt="Institution logo" class="institution-logo">
+              <div class="experience-content">
+                <p class="site-tagline">Research assistant</p>
+                <p class="exp-detail">Swansea University, Hillary Clinton School of Law</p>
+                <p class="exp-detail">Project: <em><a href="https://www.trueproject.co.uk" target="_blank" rel="noopener">Trust in User-generated Evidence (TRUE)</a></em></p>
+                <p class="exp-period">2024 - 2026</p>
+              </div>
+            </div>
+
+            <div class="experience-item">
+              <img src="assets/img/ucl-logo--primary.svg" alt="Institution logo" class="institution-logo">
+              <div class="experience-content">
+                <p class="site-tagline">Postgraduate Teaching Assistant</p>
+                <p class="exp-detail">University College London (UCL)</p>
+                <p class="exp-detail"><em>Seminar leader, demonstrator</em></p>
+                <p class="exp-period">2023 - Present</p>
               </div>
             </div>
           </div>
-
-          <div class="card timeline-item">
-            <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="Institution logo" class="institution-logo">
-              <div class="experience-content">
-                <p class="exp-title"><strong>Previous Institution</strong></p>
-                <p class="exp-detail">Research Intern / Teaching Assistant</p>
-                <p class="exp-detail"><em>Advisor:</em> Prof. / Dr. Name</p>
-                <p class="exp-period">2024 - 2025</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
 
-      <div class="section" id="projects">
-        <h2 class="section-title">Projects</h2>
-        <div class="section-body">
-          <div class="card project-card">
-            <a href="https://github.com/yourname/project-name">Project Name</a>: A short one-line summary describing what this project does and why it matters.
-          </div>
+<div class="section" id="projects">
+  <h2 class="section-title">Research</h2>
+  <div class="section-body">
+    <div class="research-list">
+
+      <div class="research-item">
+        <h3 class="research-item-title">Probabilistic Belief Updating</h3>
+        <p class="research-item-desc">An empirical investigation of how people revise beliefs in response to evidence in legal contexts.</p>
+        <p class="research-item-pub">Publication: <a href="https://escholarship.org/uc/item/1zj2p06s" target="_blank" rel="noopener">Speak Last and Step-by-Step: The Effect of Order and Response Mode on Evidence Evaluation</a></p>
+        <div class="research-tags">
+          <span class="research-tag">evidential reasoning</span>
+          <span class="research-tag">Bayesian</span>
+          <span class="research-tag">belief updating</span>
         </div>
       </div>
 
-      <div class="section" id="publications">
-        <h2 class="section-title">Publications</h2>
-        <div class="section-body">
-          <div class="publications">
-            <ol class="bibliography">
-              <li>
-                <div class="pub-row">
-                  <div class="pub-content">
-                    <div class="title">Paper Title Goes Here</div>
-                    <div class="author"><strong>Your Name</strong>, Coauthor A, Coauthor B</div>
-                    <div class="periodical"><em><strong>Conference / Journal / arXiv</strong></em></div>
-                    <div class="links">
-                      <a href="#">Paper</a> / <a href="#">Code</a> / <a href="#">Project</a>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ol>
-          </div>
+      <div class="research-item">
+        <h3 class="research-item-title">Bayesian and Coherence-Based Models</h3>
+        <p class="research-item-desc">Towards a unified model reconciling Bayesian inference with coherence-based reasoning to capture how jurors evaluate evidence and reach verdicts.</p>
+        <p class="research-item-pub">Publication: <a href="https://escholarship.org/uc/item/7q6407kv" target="_blank" rel="noopener">Coherence and Bayesian Reasoning in Legal Judgment: How Verdicts Reshape Evidence Evaluation</a></p>
+        <div class="research-tags">
+          <span class="research-tag">legal decision-making</span>
+          <span class="research-tag">Bayesian</span>
+          <span class="research-tag">coherence</span>
         </div>
       </div>
 
-      <div class="section" id="awards">
-        <h2 class="section-title">Awards</h2>
-        <div class="section-body">
-          <div class="awards-grid">
-            <div class="award-item">
-              <span class="award-icon">🏅</span>
-              <div class="award-text"><strong>Award Name</strong></div>
-            </div>
-            <div class="award-item">
-              <span class="award-icon">🥇</span>
-              <div class="award-text"><strong>Competition / Scholarship / Honor</strong></div>
-            </div>
-          </div>
+      <div class="research-item">
+        <h3 class="research-item-title">Chain Event Graphs for Narrative Reasoning</h3>
+        <p class="research-item-desc">A normative framework formalising the role of stories in legal decision-making using Chain Event Graphs.</p>
+        <div class="research-tags">
+          <span class="research-tag">legal decision-making</span>
+          <span class="research-tag">narratives</span>
         </div>
       </div>
-    </section>
 
+      <div class="research-item">
+        <h3 class="research-item-title">AI Alignment of Decision-Making</h3>
+        <p class="research-item-desc">Examining how AI systems can be aligned with human legal reasoning across probabilistic, binary, and argumentation-based decision frameworks.</p>
+        <p class="research-item-pub">Publication: <a href="https://osf.io/preprints/psyarxiv/gcd6k_v1" target="_blank" rel="noopener">Biased Judge: Recency Effects, Cautious Convictions, And Conservative Updating In GPT-4o’s Legal Decisions</a></p>
+        <div class="research-tags">
+          <span class="research-tag">legal decision-making</span>
+          <span class="research-tag">AI</span>
+        </div>
+      </div>
+
+      <div class="research-item">
+        <h3 class="research-item-title">Causal Responsibility Attribution in Human and AI</h3>
+        <p class="research-item-desc">Investigating how people assign moral and legal responsibility in causal chains involving human actors and AI agents.</p>
+        <p class="research-item-pub">Publications: <a href="https://escholarship.org/uc/item/3h60r7f7" target="_blank" rel="noopener">Cause and Blame Attribution to AI and Human Agents in Mental Health Context</a>, <a href="https://osf.io/preprints/psyarxiv/863eq_v3" target="_blank" rel="noopener">Attribution Of Responsibility Between Agents In A Causal Chain</a></p>
+        <div class="research-tags">
+          <span class="research-tag">responsibility attribution</span>
+          <span class="research-tag">AI</span>
+        </div>
+      </div>
+
+      <div class="research-item">
+        <h3 class="research-item-title">Non-Deceptive Editing and Evidence Credibility</h3>
+        <p class="research-item-desc">Investigating how non-deceptive edits to user-generated evidence affect perceptions of its credibility, reliability, and admissibility in court.</p>
+        <div class="research-tags">
+          <span class="research-tag">evidential reasoning</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+                
     <footer class="site-footer">
-      <p>
-        &copy; 2026 Your Name. All rights reserved.
-        <br>
-        <span class="template-credit"><a href="https://github.com/wzsyyh/luka-homepage-template">Luka Homepage Template</a> by <a href="https://wzsyyh.github.io/">Yuheng Yang</a></span>
-      </p>
+      <p>&copy; 2026 Helen Qiao.</p>
     </footer>
   </div>
 
@@ -212,6 +273,18 @@
           el.classList.add('visible');
         });
       }
+
+      const btn = document.getElementById('backToTop');
+      window.addEventListener('scroll', function() {
+        btn.classList.toggle('visible', window.scrollY > 300);
+      });
+      btn.addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+      history.scrollRestoration = 'manual';
+      window.addEventListener('load', function() {
+        window.scrollTo(0, 0);
+      });
     })();
   </script>
 </body>

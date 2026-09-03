@@ -1,0 +1,52 @@
+<svg width="100%" viewBox="0 0 690 690" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Prior Beliefs and Evidential Reasoning Across Crime Types</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">A person with a thought bubble in the centre, arrows pointing outward to violent crime and sexual offence.</desc>
+  <defs>
+    <marker id="arr1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse">
+      <path d="M1 1L9 5L1 9" fill="none" stroke="#9a8060" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arr2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse">
+      <path d="M1 1L9 5L1 9" fill="none" stroke="#507060" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    
+  </defs>
+
+  <rect width="680" height="680" fill="#2e3328" rx="12" style="fill:rgb(46, 51, 40);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- LEFT: Violent crime -->
+  <circle cx="130" cy="380" r="88" fill="#4a4535" stroke="#9a8060" stroke-width="0.8" style="fill:rgb(74, 69, 53);stroke:rgb(154, 128, 96);color:rgb(0, 0, 0);stroke-width:0.8px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="130" y="370" style="fill:rgb(240, 232, 208);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:20px;font-weight:600;text-anchor:middle;dominant-baseline:middle">Violent</text>
+  <text x="130" y="392" style="fill:rgb(200, 191, 152);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:15px;font-weight:400;text-anchor:middle;dominant-baseline:middle">crime</text>
+
+  <!-- RIGHT: Sexual offence -->
+  <circle cx="550" cy="380" r="88" fill="#304038" stroke="#507060" stroke-width="0.8" style="fill:rgb(48, 64, 56);stroke:rgb(80, 112, 96);color:rgb(0, 0, 0);stroke-width:0.8px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="550" y="370" style="fill:rgb(240, 232, 208);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:20px;font-weight:600;text-anchor:middle;dominant-baseline:middle">Sexual</text>
+  <text x="550" y="392" style="fill:rgb(200, 191, 152);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:15px;font-weight:400;text-anchor:middle;dominant-baseline:middle">offence</text>
+
+  <!-- arrows: person → left circle, person → right circle -->
+  <line x1="304" y1="388" x2="222" y2="382" stroke="#9a8060" stroke-width="2" marker-end="url(#arr1)" style="fill:rgb(0, 0, 0);stroke:rgb(154, 128, 96);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="378" y1="388" x2="460" y2="382" stroke="#507060" stroke-width="2" marker-end="url(#arr2)" style="fill:rgb(0, 0, 0);stroke:rgb(80, 112, 96);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- person body -->
+  <circle cx="340" cy="360" r="26" fill="none" stroke="#c8bf98" stroke-width="2.5" style="fill:none;stroke:rgb(200, 191, 152);color:rgb(0, 0, 0);stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <path d="M304 438 Q304 402 340 398 Q376 402 376 438" fill="none" stroke="#c8bf98" stroke-width="2.5" style="fill:none;stroke:rgb(200, 191, 152);color:rgb(0, 0, 0);stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="304" y1="416" x2="282" y2="438" stroke="#c8bf98" stroke-width="2" style="fill:rgb(0, 0, 0);stroke:rgb(200, 191, 152);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="376" y1="416" x2="398" y2="438" stroke="#c8bf98" stroke-width="2" style="fill:rgb(0, 0, 0);stroke:rgb(200, 191, 152);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- thought bubble dots -->
+  <circle cx="356" cy="342" r="4" fill="#c8bf98" style="fill:rgb(200, 191, 152);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="366" cy="330" r="6" fill="#c8bf98" style="fill:rgb(200, 191, 152);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="378" cy="316" r="9" fill="#c8bf98" style="fill:rgb(200, 191, 152);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- thought cloud -->
+  <ellipse cx="416" cy="276" rx="52" ry="34" fill="#4a5240" stroke="#7a7a50" stroke-width="1" style="fill:rgb(74, 82, 64);stroke:rgb(122, 122, 80);color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <ellipse cx="386" cy="286" rx="22" ry="18" fill="#4a5240" stroke="#7a7a50" stroke-width="1" style="fill:rgb(74, 82, 64);stroke:rgb(122, 122, 80);color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <ellipse cx="446" cy="290" rx="22" ry="16" fill="#4a5240" stroke="#7a7a50" stroke-width="1" style="fill:rgb(74, 82, 64);stroke:rgb(122, 122, 80);color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <ellipse cx="416" cy="250" rx="30" ry="20" fill="#4a5240" stroke="#7a7a50" stroke-width="1" style="fill:rgb(74, 82, 64);stroke:rgb(122, 122, 80);color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="416" y="282" font-family="Georgia, serif" font-size="28" font-weight="600" fill="#f0e8d0" text-anchor="middle" dominant-baseline="middle" style="fill:rgb(240, 232, 208);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:28px;font-weight:600;text-anchor:middle;dominant-baseline:middle">?</text>
+
+  <!-- label below person -->
+  <text x="340" y="478" style="fill:rgb(154, 146, 128);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:22px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Prior Beliefs</text>
+
+  <rect x="1" y="1" width="678" height="678" rx="12" fill="none" stroke="#5a5848" stroke-width="0.5" style="fill:none;stroke:rgb(90, 88, 72);color:rgb(0, 0, 0);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</svg>
